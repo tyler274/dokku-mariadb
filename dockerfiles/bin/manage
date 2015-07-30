@@ -3,8 +3,8 @@
 
 # ip=$(netstat -nr | grep '^0\.0\.0\.0' | awk '{print $2}')
 
-ip=$DB_PORT_3306_TCP_ADDR
-port=$DB_PORT_3306_TCP_PORT
+ip=$DB_PORT_3307_TCP_ADDR
+port=$DB_PORT_3307_TCP_PORT
 
 _mysql () {
   #  echo "echo \"$cmd\" | $mysql"

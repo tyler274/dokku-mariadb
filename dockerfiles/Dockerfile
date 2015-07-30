@@ -23,7 +23,7 @@ RUN sed -i -e"s/^bind-address\s*=\s*127.0.0.1/bind-address = 0.0.0.0/" /etc/mysq
 
 RUN printf '[mysqld]\nskip-name-resolve\n' > /etc/mysql/conf.d/skip-name-resolve.cnf
 
-EXPOSE 3306
+EXPOSE 3307
 
 CMD ["help"]
 
